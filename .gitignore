@@ -1,0 +1,8 @@
+# Ignore distribution directory
+dist/
+
+# Ignore Parcel cache
+.parcel-cache/
+
+# Ignore Node modules
+node_modules/
