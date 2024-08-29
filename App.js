@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 import data from "./data"
 
-export default function App() {
+function App() {
     const cards = data.map(item => {
         return (
             <Card
@@ -25,3 +25,4 @@ export default function App() {
         </div>
     )
 }
+export default App;
